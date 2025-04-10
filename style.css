@@ -1,0 +1,315 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+html,body{
+height: 100%;
+width: 100%;
+background-color: ghostwhite;
+
+}
+.logo{
+color: aliceblue;
+}
+nav{
+padding: 10px 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: #004274;
+position: relative;
+height: 70px;
+}
+nav ul{
+display: flex;
+gap: 30px;
+align-items: center;
+}
+nav ul li{
+list-style: none;
+}
+nav ul li a{
+text-decoration: none;
+color: red;
+}
+.menu-icon{
+color: aliceblue;
+font-size: 30px;
+display: none;
+}
+/* -------------rig------------------ */
+.pass{
+    background-color: gainsboro;
+    width: 100%;
+    }
+    .rig{
+     display: flex;
+     margin-top: 7px;
+     margin-left: 50px;
+     margin-right: 50px;
+    }
+    .rig img{
+    height: 70px;
+   width: 100%;
+    }
+    .breaking-news-bar{
+        background-color: rgb(56, 186, 20);
+        color: #fff;
+        padding: 7px 0;
+        text-align: center;
+        }
+        .breaking-news-content{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        }
+        .breaking-news-content{
+        font-weight: bold;
+        color: #fff;
+        }
+        marquee{
+        margin: 0 auto;
+        white-space: nowrap;
+        overflow: hidden;
+        }
+        /*--------paint------------------- */
+        .solo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 1px solid gainsboro;
+        margin: 0px 30px;
+        }
+        .solo-1{
+        max-width:350px;
+        margin: 15px;
+        border-bottom: 1px solid #004274;
+        background-color:ghostwhite;
+        }
+        .solo-1 img{
+        width: 100%;
+        height: auto;
+        }
+        .solo-1 p{
+        padding-left: 5px;
+        line-height: 23px;
+        }
+        /* ----------------- */
+        .sp-1{
+        color: blue;
+        }
+        .sp-2{
+        color: red;
+        }
+        .h2-1{
+        color: palegreen;
+        }
+        .h2-2{
+        color: aqua;
+        }
+        .solo-2{
+        max-width:500px;
+        line-height: 30px;
+        padding: 6px;
+        }
+        .sol{
+        display: flex;
+        flex-direction: column;
+        }
+        .solo-5{
+         max-width:350px;
+         margin: 10px;
+        }
+        .solo-5 img{
+        width: 100%;
+        height: auto;
+         }
+         .solo-5 h2{
+         }
+         .cas-1{
+         background-image: url(image/clock-3179167_640-removebg-preview.png);
+         background-color: black;
+         height: 150px;
+         }
+         .cas-1 h2{
+         color: white;
+         text-align: center;
+         }
+         .cas-1 p{
+         color: red;
+         text-align: center;
+         }
+         .max{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         border: 1px solid gainsboro;
+         margin: 0px 30px;
+         }
+         .max-1{
+         width: 400px;
+         margin: 10px;
+         position: relative;
+         }
+         .max-1 img{
+         width: 100%;
+         }
+         .top{
+         position: absolute;
+         bottom: 0;
+         color: #fff;
+         padding: 7px;
+         line-height: 30px;
+         }
+         .blue{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         border: 1px solid gainsboro;
+         margin: 0px 30px;
+         }
+         .blue-1{
+         width: 374px;
+         margin-top: 8px;
+         position: relative;
+         }
+         .blue-1 img{
+            width: 100%;
+            height: 254px;
+            }
+         .blue-2{
+         width: 374px;
+         margin: 10px;
+         position: relative;
+         }
+         .blue-2 img{
+         width: 100%; 
+         height: 254px; 
+         }
+         .blue-3{
+         display: flex;
+         }
+         .blue-3 img{
+         width: 80px;
+         height: 80px;
+         margin: 5px;
+         }
+         .blue-3 p{
+         width:400px ;
+         }
+           
+
+
+         .sport-1{
+         color: blue;
+         margin:0px 55px;
+         }
+         .news-1{
+         color: red;
+         }
+         .vit{
+         display: flex;
+         flex-wrap: wrap;
+         background-color: gainsboro;
+         border: 1px solid gainsboro;
+         margin: 0px 30px;
+         }
+         .vit-1{
+         width: 400px;
+         margin: 10px;
+         }
+         .vit-1 img{
+         width: 100%;
+         height: 260px;
+         }
+         .vit-2{
+         width: 500px;
+         margin: 10px;
+         }
+         .vit-2 video{
+         width: 100%;
+         height: auto;
+         }
+         .vit-3{
+         max-width: 400px;
+         line-height: 33px;
+         }
+         .news{
+         color: blue;
+         margin:0px 55px;
+         }
+         .now{
+         color: red;
+         }
+         .foc-1{
+         color: blue;
+         margin:0px 55px;
+         }
+         .foc{
+         color: red;
+          }
+          .rew-1{
+          color: blue;
+         }
+         .rew{
+          color: red;
+          margin:0px 55px;
+         }
+         footer{
+         background-color: black;
+         color: #fff;
+         height: 100px;
+         }
+         footer h1{
+         text-align: center;
+         }
+        @media screen and (max-width:888px) {
+        solo-2 {
+        
+        padding-left: 8px;
+        padding-right: 15px;
+        }
+        solo{
+         display: flex;
+         margin: 0px;
+        }
+        .max{
+        display: flex;
+        margin: 0px;
+        }
+        .top h3{
+        font-size: 16px;
+        line-height: 20px;
+        }
+         .top p{
+        font-size: 16px;
+        line-height: 23px;
+        }
+        .blue{
+       display: flex;
+       margin: 0px;
+        }
+        .blue-1{
+        margin-left: 6px;
+        margin-right: 6px;
+        }
+        .blue-3 p{
+         width: 100%;
+         }
+        .vit{
+       display: flex;
+       margin: 0px;
+        }
+        }
+           
+        
+        
+       
+        
+  
+  
+  
+
+
